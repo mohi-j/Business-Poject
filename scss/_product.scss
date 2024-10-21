@@ -1,0 +1,19 @@
+.product{
+    background: rgb(246,243,243 ) ;
+    & h1{
+        font-weight: 800;
+        font-size: 2.6rem ;
+    }
+}
+.discount{
+    height: 50px;
+    width: 50px;
+    background: rgb(238, 11, 105);
+    border-radius: 50%;
+    padding: 12px 5px ;
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+}

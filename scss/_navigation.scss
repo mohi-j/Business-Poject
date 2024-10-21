@@ -1,0 +1,25 @@
+.navbar-brand {
+    font-size: 2rem;
+    color: rgb(238, 11, 105);
+    font-family: 'Pacifico', cursive;
+    &:hover{
+        color: black;
+    }
+}
+.nav-link{
+    color: black;
+    text-transform: uppercase;
+    &:hover{
+        color: rgb(238, 11, 105);
+    }
+}
+.fa-brands {
+    color: rgb(238, 11, 105);
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.fa-regular{
+    color: rgb(238, 11, 105);
+    font-size: 1.1rem;
+    cursor: pointer;
+}

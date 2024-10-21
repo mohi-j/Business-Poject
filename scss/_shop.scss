@@ -1,0 +1,31 @@
+.btn2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 53px;
+    width: 40%;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background: white;
+    cursor: all 0.4s;
+    & :hover{
+        border: 1px solid rgb(238, 11, 105);
+        background: rgb(238, 11, 105);
+        border-radius: 10px;
+    }
+}
+.zoom-on-rotate{
+    outline: none;
+    border: none;
+    overflow: hidden;
+    cursor: pointer;
+    & img{
+        transition: transform .5s ease-in-out;
+    }
+    &:hover img{
+        transform: scale(1.5);
+    }
+}
